@@ -1,7 +1,8 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+# frozen_string_literal: true
+
+Greeting.create(message: 'Hello!')
+Greeting.create(message: 'How are you?')
+Greeting.create(message: 'Happy New Year!')
+Greeting.create(message: 'Marry Christmas!')
+Greeting.create(message: 'I am fine, thank you.')
+Greeting.create(message: 'Welcome to this website.')
